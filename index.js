@@ -18,7 +18,7 @@ http.createServer(function (request, response) {
             });  
             
 }).listen(3000);
-console.log('Server running at http://10.50.8.67:3000/');
+console.log('Server running at http://localhost:3000/');
 
 const express = require('express');
 const path = require('path');
